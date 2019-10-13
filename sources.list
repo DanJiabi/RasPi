@@ -1,17 +1,14 @@
-deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
 
-#deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
-#deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
+deb http://mirrors.neusoft.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+deb-src http://mirrors.neusoft.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
 
-#deb http://mirrors.neusoft.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
-#deb-src http://mirrors.neusoft.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
+deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
 
-#deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
-#deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ wheezy main contrib non-free rpi
-
-#deb http://mirrors.aliyun.com/raspbian/raspbian/ wheezy main non-free contrib rpi
-#deb-src http://mirrors.aliyun.com/raspbian/raspbian/ wheezy main non-free contrib rpi
+deb http://mirrors.aliyun.com/raspbian/raspbian/ buster main non-free contrib rpi
+deb-src http://mirrors.aliyun.com/raspbian/raspbian/ buster main non-free contrib rpi
 
 #deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
 # Uncomment line below then 'apt-get update' to enable 'apt-get source'
